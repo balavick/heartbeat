@@ -1,0 +1,4 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+# Optional, only for Postgres (set DATABASE_URL):
+# psycopg[binary]>=3.1

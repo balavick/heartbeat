@@ -1,0 +1,23 @@
+[build]
+  publish = "web"
+
+# Demo mode works as-is. To connect a real backend (Render, Railway, Fly...),
+# uncomment and replace the host. Same-origin proxying keeps login cookies working.
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://YOUR-BACKEND.example.com/api/:splat"
+#   status = 200
+# [[redirects]]
+#   from = "/ping/*"
+#   to = "https://YOUR-BACKEND.example.com/ping/:splat"
+#   status = 200
+# [[redirects]]
+#   from = "/login"
+#   to = "https://YOUR-BACKEND.example.com/login"
+#   status = 200
+#   force = true
+# [[redirects]]
+#   from = "/logout"
+#   to = "https://YOUR-BACKEND.example.com/logout"
+#   status = 200
+#   force = true
